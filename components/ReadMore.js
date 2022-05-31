@@ -73,7 +73,7 @@ const ReadMore = ({ blogData }) => {
         autoPlaySpeed={5000}
         responsive={responsive}
         itemClass="px-4"
-        className="z-10"
+        className="z-10 font-bangers"
       >
         {blogData.map((eachBlog) => {
           return <ReadMoreCard key={eachBlog.id} eachBlogData={eachBlog} />;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Blaka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +10,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Blaka", cursive;
+  font-family: "Bangers", cursive;
   text-transform: uppercase;
 }
