@@ -31,7 +31,14 @@ const BlogBody = ({ clickedBlog }) => {
         height={600}
       />
       <div className="content my-8 pb-4 font-montserrat sm:text-left text-center text-base sm:text-lg leading-8 border-b-2 border-b-gray-700 ">
-        <ReactMarkdown className={styles.reactMarkdown}>
+        <ReactMarkdown
+          className={styles.reactMarkdown}
+          transformImageUri={(uri) =>
+            uri.startsWith("http")
+              ? uri
+              : `${process.env.NEXT_PUBLIC_STRAPI_URL}${uri}`
+          }
+        >
           {clickedBlog.attributes.blogContent}
         </ReactMarkdown>
       </div>
