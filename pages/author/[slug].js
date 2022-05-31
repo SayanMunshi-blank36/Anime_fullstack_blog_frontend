@@ -65,7 +65,7 @@ const Slug = ({
             <div className="author my-8">
               <div className="flex flex-col items-center justify-center md:items-start md:justify-start">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${authorDetails[0].attributes.authorImg.data.attributes.url}`}
+                  src={`${authorDetails[0].attributes.authorImg.data.attributes.url}`}
                   // src="/manga.jpg"
                   width={120}
                   height={120}

@@ -26,18 +26,14 @@ const BlogBody = ({ clickedBlog }) => {
         {moment(clickedBlog.attributes.createdAt).format("MMM DD, YYYY")}
       </div>
       <Image
-        src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${clickedBlog.attributes.blogImg.data.attributes.url}`}
+        src={`${clickedBlog.attributes.blogImg.data.attributes.url}`}
         width={800}
         height={600}
       />
       <div className="content my-8 pb-4 font-montserrat sm:text-left text-center text-base sm:text-lg leading-8 border-b-2 border-b-gray-700 ">
         <ReactMarkdown
           className={styles.reactMarkdown}
-          transformImageUri={(uri) =>
-            uri.startsWith("http")
-              ? uri
-              : `${process.env.NEXT_PUBLIC_STRAPI_URL}${uri}`
-          }
+          transformImageUri={(uri) => (uri.startsWith("http") ? uri : `${uri}`)}
         >
           {clickedBlog.attributes.blogContent}
         </ReactMarkdown>
@@ -77,7 +73,7 @@ const BlogBody = ({ clickedBlog }) => {
         </h2>
         <div className="flex flex-col md:flex-row items-center justify-center md:items-start md:justify-start">
           <Image
-            src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${clickedBlog.attributes.authorImg.data.attributes.url}`}
+            src={`${clickedBlog.attributes.authorImg.data.attributes.url}`}
             width={100}
             height={100}
             className="rounded-full"
