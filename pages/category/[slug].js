@@ -61,7 +61,7 @@ const Slug = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="upper_intro mx-auto w-full flex flex-col justify-center items-center">
-        <h1 className="font-bangers tracking-widest text-center text-4xl sm:text-5xl my-4 sm:my-8">
+        <h1 className=" tracking-widest text-center text-4xl sm:text-5xl my-4 sm:my-8">
           {slug}
         </h1>
         <p className="font-montserrat text-sm sm:text-base text-center mb-4 sm:mb-8 w-10/12">
@@ -77,12 +77,12 @@ const Slug = ({
         <section className={styles.home_grid}>
           {/* <CategoryLatestBlogs blogData={blogData} checkSlug={slug} /> */}
           {posts.length === 0 ? (
-            <p className="text-center font-bangers text-xl text-error-content">
+            <p className="text-center  text-xl text-error-content">
               No Blogs yet in this Category
             </p>
           ) : (
             <section className="my-8">
-              <h2 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
+              <h2 className="text-3xl  text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
                 Latest
               </h2>
               <InfiniteScroll

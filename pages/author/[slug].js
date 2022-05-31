@@ -72,7 +72,7 @@ const Slug = ({
                   className="rounded-full"
                 />
                 <div className="mt-8">
-                  <h3 className="font-bangers text-3xl tracking-wider text-center md:text-left">
+                  <h3 className=" text-3xl tracking-wider text-center md:text-left">
                     {authorDetails[0].attributes.authorName}
                     {/* Sayan Munshi */}
                   </h3>
@@ -87,7 +87,7 @@ const Slug = ({
               </div>
             </div>
             <div>
-              <h2 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
+              <h2 className="text-3xl  text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
                 Latest Blogs By {authorDetails[0].attributes.authorName}
               </h2>
               {/* <AuthorLatestBlogs

@@ -13,7 +13,7 @@ const Contact = () => {
         <section className="body-font relative">
           <div className="px-5 py-24 flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center w-full mb-12">
-              <h1 className="text-3xl sm:text-5xl font-bangers tracking-wider mb-4 border-b-8 border-b-error w-fit">
+              <h1 className="text-3xl sm:text-5xl  tracking-wider mb-4 border-b-8 border-b-error w-fit">
                 Contact Us
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed font-montserrat text-center text-base sm:text-lg">
@@ -41,7 +41,7 @@ const Contact = () => {
                     <div className="relative">
                       <label
                         htmlFor="name"
-                        className="leading-7 text-base sm:text-lg font-bangers tracking-wide"
+                        className="leading-7 text-base sm:text-lg  tracking-wide"
                       >
                         Name
                       </label>
@@ -58,7 +58,7 @@ const Contact = () => {
                     <div className="relative">
                       <label
                         htmlFor="email"
-                        className="leading-7 text-base sm:text-lg font-bangers tracking-wide"
+                        className="leading-7 text-base sm:text-lg  tracking-wide"
                       >
                         Email
                       </label>
@@ -75,7 +75,7 @@ const Contact = () => {
                     <div className="relative">
                       <label
                         htmlFor="message"
-                        className="leading-7 text-base sm:text-lg font-bangers tracking-wide"
+                        className="leading-7 text-base sm:text-lg  tracking-wide"
                       >
                         Message
                       </label>

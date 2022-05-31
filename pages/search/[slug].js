@@ -48,11 +48,11 @@ const Slug = ({ blogData, headers, numberofBlogs }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="container mx-auto sm:p-8 p-2 mb-16">
-        <h1 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
+        <h1 className="text-3xl  text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
           Search Results
         </h1>
         {posts.length === 0 ? (
-          <p className="text-center font-bangers text-xl text-error-content">
+          <p className="text-center  text-xl text-error-content">
             No Search Results Found
           </p>
         ) : (

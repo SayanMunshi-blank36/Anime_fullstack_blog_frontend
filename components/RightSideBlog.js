@@ -21,7 +21,7 @@ const RightSideBlog = ({ eachBlog }) => {
           <div>{eachBlog.attributes.categories.data[0].attributes.type}</div>
         </Link>
       </div>
-      <h3 className="font-bangers my-1 tracking-wider text-xl cursor-pointer hover:underline">
+      <h3 className=" my-1 tracking-wider text-xl cursor-pointer hover:underline">
         {eachBlog.attributes.title}
       </h3>
       <div className="text-sm text-primary-focus cursor-text">

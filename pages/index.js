@@ -54,7 +54,7 @@ export default function Home({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="container mx-auto sm:p-8 p-2">
-        <h1 className="font-bangers text-4xl sm:text-6xl tracking-wider text-center mb-2">
+        <h1 className=" text-4xl sm:text-6xl tracking-wider text-center mb-2">
           Anilog
         </h1>
         <p className="font-montserrat mx-auto text-center mb-16 text-base sm:text-lg pb-2 border-b-2 border-b-error w-3/4">
@@ -64,7 +64,7 @@ export default function Home({
         <FeaturedPosts blogData={featuredPosts} />
         <section className={styles.home_grid}>
           <section className="my-8">
-            <h2 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
+            <h2 className="text-3xl  text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
               Latest
             </h2>
             <InfiniteScroll

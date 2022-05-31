@@ -19,7 +19,7 @@ const FeaturedPostCard = ({ eachBlogData }) => {
           <p className="mb-4 text-shadow font-semibold text-sm sm:text-xl cursor-text">
             {moment(eachBlogData.attributes.createdAt).format("MMM DD, YYYY")}
           </p>
-          <p className="mb-4 text-shadow font-bangers font-semibold tracking-widest sm:text-5xl text-center cursor-pointer hover:underline text-2xl">
+          <p className="mb-4 text-shadow  font-semibold tracking-widest sm:text-5xl text-center cursor-pointer hover:underline text-2xl">
             {eachBlogData.attributes.title}
           </p>
           <p className="mb-4 mx-2 sm:mx-8 text-shadow font-montserrat text-sm md:text-xl text-center cursor-text">

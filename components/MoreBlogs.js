@@ -10,7 +10,7 @@ const MoreBlogs = ({ eachBlog }) => {
         width={100}
         height={60}
       />
-      <h3 className="ml-2 text-center font-bangers my-1 tracking-wider text-sm cursor-pointer hover:underline">
+      <h3 className="ml-2 text-center  my-1 tracking-wider text-sm cursor-pointer hover:underline">
         {eachBlog.attributes.title}
       </h3>
     </div>

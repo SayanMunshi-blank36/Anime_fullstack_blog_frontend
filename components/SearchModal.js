@@ -28,7 +28,7 @@ const SearchModal = ({ willSearch, search }) => {
         >
           <input
             type="text"
-            className="md:w-3/5 w-5/6 sm:w-4/5 h-16 sm:h-20 bg-transparent border-b-2 border-b-primary placeholder-primary text-3xl sm:text-5xl font-bangers tracking-wider outline-none text-primary"
+            className="md:w-3/5 w-5/6 sm:w-4/5 h-16 sm:h-20 bg-transparent border-b-2 border-b-primary placeholder-primary text-3xl sm:text-5xl  tracking-wider outline-none text-primary"
             placeholder="Search"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}

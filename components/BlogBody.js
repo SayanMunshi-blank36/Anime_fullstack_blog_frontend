@@ -9,7 +9,7 @@ import styles from "../styles/BlogBody.module.css";
 const BlogBody = ({ clickedBlog }) => {
   return (
     <div className="mt-8">
-      <h1 className="font-bangers text-3xl sm:text-4xl md:text-6xl tracking-wider mb-4">
+      <h1 className=" text-3xl sm:text-4xl md:text-6xl tracking-wider mb-4">
         {clickedBlog.attributes.title}
       </h1>
       <p className="font-montserrat text-base sm:text-lg mb-4">
@@ -38,7 +38,7 @@ const BlogBody = ({ clickedBlog }) => {
       <div className="ad text-center bg-secondary h-72 w-72 mx-auto mb-16">
         Ad
       </div>
-      <h2 className="font-bangers text-2xl sm:text-3xl border-b-4 border-b-error w-fit tracking-wider mb-2">
+      <h2 className=" text-2xl sm:text-3xl border-b-4 border-b-error w-fit tracking-wider mb-2">
         Category
       </h2>
       <div className="flex mb-4">
@@ -56,7 +56,7 @@ const BlogBody = ({ clickedBlog }) => {
         })}
       </div>
       <div className="share mt-8">
-        <h2 className="font-bangers border-b-4 border-b-error w-fit text-2xl sm:text-3xl tracking-wider mb-2">
+        <h2 className=" border-b-4 border-b-error w-fit text-2xl sm:text-3xl tracking-wider mb-2">
           Share
         </h2>
         <div className="flex mb-8 pb-4">
@@ -65,7 +65,7 @@ const BlogBody = ({ clickedBlog }) => {
         </div>
       </div>
       <div className="author my-8">
-        <h2 className="font-bangers border-b-4 border-b-error w-fit tracking-wider text-2xl sm:text-3xl mb-8">
+        <h2 className=" border-b-4 border-b-error w-fit tracking-wider text-2xl sm:text-3xl mb-8">
           About The Author
         </h2>
         <div className="flex flex-col md:flex-row items-center justify-center md:items-start md:justify-start">
@@ -79,7 +79,7 @@ const BlogBody = ({ clickedBlog }) => {
             <Link
               href={`/author/${clickedBlog.attributes.author.data.attributes.slug}`}
             >
-              <h3 className="cursor-pointer font-bangers text-xl tracking-wider text-center md:text-left">
+              <h3 className="cursor-pointer  text-xl tracking-wider text-center md:text-left">
                 {clickedBlog.attributes.author.data.attributes.authorName}
               </h3>
             </Link>

@@ -40,7 +40,7 @@ const EachBlog = ({ eachBlog }) => {
               );
             })}
           </div>
-          <h3 className="font-bangers my-1 tracking-wider text-2xl sm:text-3xl cursor-pointer hover:underline">
+          <h3 className=" my-1 tracking-wider text-2xl sm:text-3xl cursor-pointer hover:underline">
             {eachBlog.attributes.title}
           </h3>
           <p className="font-montserrat text-xs sm:text-sm cursor-text">

@@ -64,7 +64,7 @@ const FeaturedPosts = ({ blogData }) => {
 
   return (
     <div>
-      <h2 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
+      <h2 className="text-3xl  text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
         Featured
       </h2>
       <Carousel

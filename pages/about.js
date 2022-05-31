@@ -11,7 +11,7 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container mx-auto px-4 py-8 sm:p-8 flex flex-col items-center justify-center">
-        <h1 className="font-bangers text-3xl sm:text-5xl text-center my-4 sm:my-8 border-b-8 border-b-error">
+        <h1 className=" text-3xl sm:text-5xl text-center my-4 sm:my-8 border-b-8 border-b-error">
           About Us
         </h1>
         <p className="mx-auto md:w-3/4 text-center font-montserrat text-base sm:text-xl mb-8">
@@ -28,7 +28,7 @@ const About = () => {
           provident quo quos. Suscipit ex reiciendis ipsa sequi expedita
           consequatur soluta exercitationem veritatis quos!
         </p>
-        <h2 className="font-bangers text-2xl sm:text-4xl tracking-wider border-b-2 border-b-error w-fit">
+        <h2 className=" text-2xl sm:text-4xl tracking-wider border-b-2 border-b-error w-fit">
           Follow Us On
         </h2>
         <div className="flex mt-4 mb-8">
